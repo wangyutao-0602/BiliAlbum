@@ -1,0 +1,50 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
+.publish/
+
+# Credentials, cookies, and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+cookies*
+*cookie*.txt
+credentials*
+secrets*
+config.local.*
+settings.local.*
+
+# Downloaded media and per-user state
+.bilialbum-history.json
+.bilialbum-temp/
+downloads/
+output/
+*.mp4
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.part
+*.ytdl
+*.log
+*.har
+
+# New local diagnostics should be reviewed before sharing
+network-diagnostics*.json
+*-diagnostics.json
+HTTP412*.json
+HTTP412*RESULTS.txt
